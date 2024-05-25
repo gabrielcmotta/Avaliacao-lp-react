@@ -1,0 +1,71 @@
+@import "bootstrap/scss/bootstrap";
+
+body { 
+    background-color: black;
+    color: white;
+}
+
+// NavBar
+
+.img-btn-navbar-prota {
+    width: 6vh;
+    height: 6vh;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+// Quem somos 
+
+.tx-card {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3vh;
+}
+
+.container-qs {
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+// Depoimento dos Alunos
+
+#tt-dda {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.container-dda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.card-dda {
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.card-dda-alt {
+    background-color: #212529;
+    color: whitesmoke;
+    margin-top: 5vh;
+}
+
+.img-dda-final {
+    width: 8vh;
+    height: 8vh;
+    margin-right: 12px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+// Perguntas Frequentes
+
+#tt-pf {
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+    text-align: center;
+}
